@@ -1,0 +1,70 @@
+/* src/components/MovieDetails.css */
+
+.movie-details {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .movie-details h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .movie-details h3 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-top: 20px;
+  }
+  
+  .movie-details p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .movie-details img {
+    width: 100%;          
+    max-width: 500px;    
+    height: 500px;        
+    object-fit:inherit;  
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: #f0f0f0; /* Optional: background color to fill any space */
+}
+  
+  .movie-details .trailer-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .movie-details .trailer-container iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 8px;
+  }
+  
+  .movie-details .loading {
+    font-size: 1.5rem;
+    color: #888;
+    text-align: center;
+  }
+  
+  .movie-details .error-message {
+    color: #d9534f;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
